@@ -1,0 +1,197 @@
+/* Variables */
+:root {
+  --margin-left: 15vw;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Logo, cím, 2 gomb */
+.header {
+  background-image: url("./intro.png");
+  background-size: cover;
+  height: 120vh;
+  background-repeat: no-repeat;
+}
+
+/* Header Mobil */
+@media (max-width: 640px) {
+  .header {
+    background-size: 640px auto;
+    height: 120vw;
+  }
+}
+
+/* Ez szünteti meg a fehér sávot a képernyő tetején. Ne töröld*/
+header {
+  height: 0;
+}
+
+/* Menü fonts */
+/* To do: 40px szavak közt */
+.navbar-light .navbar-nav .nav-link {
+  color: #ffffff !important;
+  font-weight: 700 !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #ce653d !important;
+}
+
+.nav-link-active {
+  color: #ce653d !important;
+  text-decoration: underline !important;
+}
+
+.navbar {
+  background: transparent;
+  font-size: 18 !important;
+  font-family: "Quicksand", sans-serif;
+}
+
+.navbar.active {
+  background: #4e4e4e;
+  opacity: 0.9;
+}
+
+.logo {
+  width: 13vw;
+  margin-left: var(--margin-left);
+  padding-top: 8vw;
+}
+
+.title {
+  text-align: start;
+  color: aliceblue;
+  font-size: 3vw;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-left: var(--margin-left);
+  margin-top: 5vh;
+  margin-bottom: 2vh;
+}
+
+/* @media (max-width: 767px) {
+  .title {
+    font-size: 30px;
+    margin-left: 0px;
+  }
+} */
+
+.button1:hover {
+  color: #ce653d !important;
+  font-family: "Quicksand", sans-serif;
+}
+
+.button {
+  background-color: #ce653d;
+  font-weight: 500;
+  border: none;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2vw;
+  width: 25vw;
+  margin: 2vh;
+  margin-left: var(--margin-left);
+  border-radius: 2.25em;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.reg {
+  background-color: white;
+  color: #ce653d;
+}
+
+.button:hover {
+  color: #ce653d;
+  background-color: white;
+}
+
+.reg:hover {
+  color: white;
+  background-color: #ce653d;
+}
+
+@media (max-width: 767px) {
+  .button1 {
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+  }
+}
+
+.fittop {
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+}
+
+.divheight {
+  min-height: 80vh;
+  padding-left: var(--margin-left);
+  padding-right: var(--margin-left);
+  line-height: 80vh;
+}
+
+.divheight p {
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.gyik {
+  min-height: 80vh;
+  padding-left: var(--margin-left);
+  padding-right: var(--margin-left);
+  line-height: 1.5;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  margin-top: 0;
+  color: #ce653d;
+  font-weight: bold;
+  padding-top: 0px;
+  line-height: 0;
+}
+
+h2 {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: "Quicksand", sans-serif;
+  vertical-align: middle;
+  max-width: 1000px;
+}
+
+.socialicon {
+  text-align: right;
+  font-size: 40px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.row-title {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.row-content-text {
+  font-family: "Quicksand", sans-serif;
+}
