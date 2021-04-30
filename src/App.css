@@ -15,14 +15,6 @@ html {
   background-repeat: no-repeat;
 }
 
-/* Header Mobil */
-@media (max-width: 640px) {
-  .header {
-    background-size: 640px auto;
-    height: 120vw;
-  }
-}
-
 /* Ez szünteti meg a fehér sávot a képernyő tetején. Ne töröld*/
 header {
   height: 0;
@@ -133,6 +125,7 @@ header {
 }
 
 .fittop {
+  background-color: #363636;
   margin-top: 0px !important;
   padding-top: 0px !important;
 }
@@ -194,4 +187,32 @@ p {
 
 .row-content-text {
   font-family: "Quicksand", sans-serif;
+}
+
+/* Header Mobil */
+@media (max-width: 640px) {
+  .header {
+    background-size: 640px auto;
+    height: 120vw;
+    background-position: -200px 0px;
+  }
+
+  .title {
+    text-align: center;
+    font-size: 5vw;
+    margin-left: 0;
+  }
+
+  .logo {
+    display: block;
+    width: 30vw;
+    padding-top: 8vw;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+  }
+
+  .button {
+    flex-direction: row;
+  }
 }
