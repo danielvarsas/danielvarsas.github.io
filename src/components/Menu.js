@@ -42,17 +42,6 @@ function Menu() {
                 <Nav.Link className="nav-links" href="/regisztracio">
                   Regisztrálok
                 </Nav.Link>
-                {/* <Nav.Link className="nav-links" href="/#gyik">
-                  Videók
-                </Nav.Link> */}
-                <Link
-                  activeClass="active"
-                  to="/#gyik"
-                  spy={true}
-                  smooth={true}
-                  offset={-70}
-                  duration={500}
-                ></Link>
                 <Nav.Link className="nav-links" href="/#gyik">
                   Gy.I.K.
                 </Nav.Link>
