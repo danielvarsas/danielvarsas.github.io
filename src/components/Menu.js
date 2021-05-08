@@ -2,6 +2,7 @@ import { React, useState, useEffect } from "react";
 import { Nav, Navbar } from "react-bootstrap";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Link, animateScroll as scroll } from "react-scroll";
+import logo from "../elements/logofeher.png";
 
 // import Map from "./Map";
 // import App from "../App";
@@ -30,6 +31,16 @@ function Menu() {
             expand="lg"
             fixed="top"
           >
+            <Navbar.Brand className="navbar-brand" href="/">
+              <img
+                src={logo}
+                width="50"
+                height="50"
+                className="d-inline-block align-top"
+                alt=""
+              />
+              Komposzt Hoszt Szeged
+            </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav navbar-light">
               <Nav className="justify-content-end" style={{ width: "100%" }}>

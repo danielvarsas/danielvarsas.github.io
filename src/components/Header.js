@@ -11,9 +11,19 @@ function Header() {
       <div className="title">
         Komposzt Hoszt <br /> Szeged
       </div>
-      <div className="d-flex flex-column">
-        <Button text="Keresek" button="button" linkTo="./Map" />
-        <Button text="Regisztrálok" button="button reg" linkTo="./Register" />
+      <div className="d-flex flex-column buttonbox">
+        <Button
+          className="buttonbox"
+          text="Keresek"
+          button="button"
+          linkTo="./terkep"
+        />
+        <Button
+          className="buttonbox"
+          text="Regisztrálok"
+          button="button reg"
+          linkTo="./regisztracio"
+        />
       </div>
     </div>
   );

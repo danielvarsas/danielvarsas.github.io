@@ -2,7 +2,7 @@ import React from "react";
 
 function Button(props) {
   return (
-    <a href="./Map">
+    <a href={props.linkTo}>
       <button className={props.button}>{props.text}</button>
     </a>
   );

@@ -4,6 +4,7 @@ import Map from "./Pages/Map";
 import OnePage from "./OnePage";
 import Menu from "./components/Menu";
 import Jelentkezes from "./Pages/Jelentkezes";
+import Register from "./Pages/Register";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
         <main>
           <Switch>
             <Route exact path="/regisztracio">
-              <Jelentkezes />
+              <Register />
             </Route>
             <Route exact path="/terkep">
               <Map />

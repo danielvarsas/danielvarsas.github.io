@@ -13,14 +13,11 @@ function Map() {
   }
 
   return (
-    <div
-      style={{ paddingTop: 80, backgroundColor: 363636 }}
-      className="flex-container justify-content:end"
-    >
-      <div style={{ height: "95vh", width: "60vh" }}>
+    <div style={{ paddingTop: 50 }} className="map-container">
+      <div className="filter">
         <Filter onChange={(value) => setCity(value)} city={city} />
       </div>
-      <div style={{ width: "110vh" }}>
+      <div className="map">
         <SimpleMap city={city} />
       </div>{" "}
     </div>

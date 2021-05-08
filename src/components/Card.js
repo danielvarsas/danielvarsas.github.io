@@ -1,5 +1,5 @@
 import React, { Fragment, useReducer } from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
+//import "bootstrap/dist/css/bootstrap.min.css";
 import "./Card.css";
 import { Facebook, Telephone, ChatLeftDots } from "react-bootstrap-icons";
 

@@ -29,6 +29,13 @@ header {
   padding-right: 20px !important;
 }
 
+.navbar-brand {
+  color: #ffffff !important;
+  vertical-align: middle;
+  align-items: center;
+  font-size: 30px !important;
+}
+
 .navbar-light .navbar-nav .nav-link:hover {
   color: #ce653d !important;
 }
@@ -105,6 +112,12 @@ header {
   color: #ce653d;
 }
 
+.submit {
+  background-color: #ce653d;
+  color: white;
+  font-size: 1.5vw;
+}
+
 .button:hover {
   color: #ce653d;
   background-color: white;
@@ -169,7 +182,7 @@ h2 {
 p {
   font-family: "Quicksand", sans-serif;
   vertical-align: middle;
-  max-width: 1000px;
+  max-width: 1900px;
 }
 
 .socialicon {
@@ -189,30 +202,110 @@ p {
   font-family: "Quicksand", sans-serif;
 }
 
-/* Header Mobil */
+.form-inline {
+  width: 100%;
+}
+
+.form-group {
+  width: 100%;
+}
+
+.input-group {
+  width: 90% !important;
+}
+
+.form-control {
+  width: 100% !important;
+}
+
+span.input-group-addon {
+  width: 50px !important;
+}
+
+.formWidth {
+  width: 100%;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.filter-container {
+  flex-wrap: wrap;
+}
+
+.map-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-content: space-between;
+  align-items: center;
+}
+
+.filter {
+  order: 0;
+  flex: 0 1 auto;
+  align-self: auto;
+  color: antiquewhite;
+  text-align: center;
+  width: 95%;
+}
+
+.map {
+  order: 0;
+  flex: 0 1 auto;
+  align-self: center;
+  height: 95vh;
+  width: 95%;
+}
+
+/* Mobil */
 @media (max-width: 640px) {
   .header {
-    background-size: 640px auto;
-    height: 120vw;
-    background-position: -200px 0px;
+    background-size: 1070px auto;
+    height: 220vw;
+    background-position: -500px 0px;
   }
 
   .title {
     text-align: center;
-    font-size: 5vw;
+    font-size: 7vw;
     margin-left: 0;
+    margin-bottom: 50px;
   }
 
   .logo {
     display: block;
-    width: 30vw;
+    width: 60%;
     padding-top: 8vw;
     margin-left: auto;
     margin-right: auto;
-    width: 20%;
+    margin-bottom: 50px;
+  }
+
+  .buttonbox {
+    flex-direction: row;
+    align-items: center;
+    margin: 0px !important ;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
   }
 
   .button {
-    flex-direction: row;
+    width: 40vh;
+    font-size: 3vh;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h1 {
+    font-size: 30px !important;
   }
 }
