@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/komposzthoszt/static/css/main.ec1855b2.chunk.css",
+    "main.js": "/komposzthoszt/static/js/main.16439628.chunk.js",
+    "main.js.map": "/komposzthoszt/static/js/main.16439628.chunk.js.map",
+    "runtime-main.js": "/komposzthoszt/static/js/runtime-main.eaa8ba0c.js",
+    "runtime-main.js.map": "/komposzthoszt/static/js/runtime-main.eaa8ba0c.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/komposzthoszt/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.4a7d5d77.chunk.js": "/komposzthoszt/static/js/2.4a7d5d77.chunk.js",
+    "static/js/2.4a7d5d77.chunk.js.map": "/komposzthoszt/static/js/2.4a7d5d77.chunk.js.map",
+    "index.html": "/komposzthoszt/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/komposzthoszt/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.ec1855b2.chunk.css.map": "/komposzthoszt/static/css/main.ec1855b2.chunk.css.map",
+    "static/js/2.4a7d5d77.chunk.js.LICENSE.txt": "/komposzthoszt/static/js/2.4a7d5d77.chunk.js.LICENSE.txt",
+    "static/media/feherEK1.fbeba776.png": "/komposzthoszt/static/media/feherEK1.fbeba776.png",
+    "static/media/feherEK2.03297f90.png": "/komposzthoszt/static/media/feherEK2.03297f90.png",
+    "static/media/App.css": "/komposzthoszt/static/media/intro.6ed3d31d.png",
+    "static/media/logofeher.c5ece126.png": "/komposzthoszt/static/media/logofeher.c5ece126.png",
+    "static/media/szurkeEK.49b9ad61.png": "/komposzthoszt/static/media/szurkeEK.49b9ad61.png",
+    "static/media/zoldEK.2b294994.png": "/komposzthoszt/static/media/zoldEK.2b294994.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eaa8ba0c.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.4a7d5d77.chunk.js",
+    "static/css/main.ec1855b2.chunk.css",
+    "static/js/main.16439628.chunk.js"
+  ]
+}
